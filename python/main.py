@@ -77,6 +77,6 @@ with SB(uc=True, binary_location="/home/lurchfresser/Downloads/ungoogled-chromiu
         except NoSuchElementException as e:
             print("No more elements to wait for.")
     print("Done")
-    #sb.driver.quit()
-    sb.wait(1000)
+    sb.driver.quit()
+    #sb.wait(1000)
     #main-content > div:nth-child(3) > shreddit-feed > faceplate-batch:nth-child(22) > article:nth-child(9)
